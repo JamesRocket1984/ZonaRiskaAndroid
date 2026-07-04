@@ -29,16 +29,6 @@ presplash.filename = %(source.dir)s/assets/icon.png
 # Полноэкранный режим
 fullscreen = 1
 
-[buildozer]
-
-# Уровень логирования (2 = подробно)
-log_level = 2
-
-# Предупреждать при запуске от root
-warn_on_root = 1
-
-[app:android]
-
 # Разрешения Android
 android.permissions = INTERNET
 
@@ -55,3 +45,11 @@ android.accept_sdk_license = True
 
 # Не требовать резервного копирования
 android.allow_backup = True
+
+[buildozer]
+
+# Уровень логирования (2 = подробно)
+log_level = 2
+
+# Предупреждать при запуске от root
+warn_on_root = 1
