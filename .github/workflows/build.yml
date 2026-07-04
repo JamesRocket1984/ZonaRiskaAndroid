@@ -22,7 +22,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
-          pip install buildozer cython virtualenv
+          pip install buildozer "cython==0.29.33" virtualenv
 
       - name: Build APK
         run: yes | buildozer android debug
